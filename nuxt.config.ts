@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
@@ -7,6 +6,10 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    '@nuxtjs/tailwindcss'
-  ]
+    '@nuxtjs/tailwindcss',
+    'nuxt-lucide-icons'
+  ],
+  lucide: {
+    namePrefix: 'Icon'
+  }
 })
