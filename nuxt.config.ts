@@ -5,5 +5,8 @@ export default defineNuxtConfig({
     prerender: {
       autoSubfolderIndex: false
     }
-  }
+  },
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ]
 })
