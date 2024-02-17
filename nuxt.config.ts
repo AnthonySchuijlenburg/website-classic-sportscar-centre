@@ -1,3 +1,5 @@
+import { ViteImageOptimizer as viteImageOptimizer } from "vite-plugin-image-optimizer";
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
@@ -8,5 +10,8 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons"],
   lucide: {
     namePrefix: "Icon",
+  },
+  vite: {
+    plugins: [viteImageOptimizer()],
   },
 });
