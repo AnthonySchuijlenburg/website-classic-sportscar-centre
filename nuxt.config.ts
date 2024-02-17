@@ -2,14 +2,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
     prerender: {
-      autoSubfolderIndex: false
-    }
+      autoSubfolderIndex: false,
+    },
   },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    'nuxt-lucide-icons'
-  ],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons"],
   lucide: {
-    namePrefix: 'Icon'
-  }
-})
+    namePrefix: "Icon",
+  },
+});

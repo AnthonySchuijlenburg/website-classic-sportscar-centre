@@ -1,3 +1,3 @@
 <template>
-    <p>Restoration</p>
+  <p>Restoration</p>
 </template>

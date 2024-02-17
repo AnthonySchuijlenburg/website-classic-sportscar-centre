@@ -1,3 +1,3 @@
 <template>
-    <p>Service</p>
+  <p>Service</p>
 </template>
