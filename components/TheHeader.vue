@@ -31,18 +31,17 @@ const routes: Array<Route> = [
     <div class="max-w-6xl mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex space-x-4">
-          <!-- logo -->
           <div>
             <NuxtLink to="/" class="flex justify-center items-center h-16">
               <img
                 class="h-14 py-1 object-contain"
-                src="../assets/images/logo.png"
+                src="@/assets/images/logo.png"
                 alt=""
               />
             </NuxtLink>
           </div>
         </div>
-        <!-- primary nav -->
+
         <div class="hidden md:flex items-center space-x-1">
           <NuxtLink
             v-for="link in routes"
@@ -52,7 +51,7 @@ const routes: Array<Route> = [
             >{{ link.label }}</NuxtLink
           >
         </div>
-        <!-- mobile button goes here -->
+
         <div class="md:hidden flex items-center">
           <button class="md:hidden" @click="navigationOpen = !navigationOpen">
             <IconMenu v-if="!navigationOpen" />
@@ -61,7 +60,7 @@ const routes: Array<Route> = [
         </div>
       </div>
     </div>
-    <!-- mobile menu -->
+
     <div class="md:hidden" :class="navigationOpen ? 'block' : 'hidden'">
       <NuxtLink
         v-for="link in routes"

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       autoSubfolderIndex: false,
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons", "nuxt-swiper"],
   lucide: {
     namePrefix: "Icon",
   },

@@ -1,28 +1,57 @@
+<script setup lang="ts">
+import { filename } from "pathe/utils";
+
+interface HeroImage {
+  default: string;
+}
+
+const glob: Record<string, Promise<HeroImage>> = import.meta.glob(
+  "@/assets/images/heroes/*.jpg",
+  { eager: true },
+);
+const images: Record<string, string> = Object.fromEntries(
+  await Promise.all(
+    Object.entries(glob).map(async ([key, valuePromise]) => {
+      const value = await valuePromise;
+      return [filename(key), value.default];
+    }),
+  ),
+);
+
+const count = computed(() => {
+  return Object.keys(images).length;
+});
+</script>
+
 <template>
-  <div class="relative">
-    <img
-      class="absolute object-cover h-full w-full opacity-30"
-      src="@/assets/images/hero.jpg"
-      alt="alt"
-    />
-    <div class="relative isolate px-6 pt-14 lg:px-8">
-      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-        <div class="text-center">
-          <h1
-            class="text-6xl font-bold tracking-tight text-gray-900 sm:text-6xl"
-          >
-            Classic Sportscar Centre
-          </h1>
-          <p class="mt-6 text-lg leading-8 text-gray-900">
-            Classic sportscar centre is the adress for repair and maintenance of
-            classic and sportscars of all makes and years, but we like German
-            cars of the 70`s and 80`s like the Mercedes w107 and Porsche 911 the
-            most. With over 25 years of experience in classic and sportscars we
-            are a true and reliable partner for anyone with or anyone who
-            desires a classic sporstcar!
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <Swiper
+    class="relative"
+    :modules="[SwiperAutoplay, SwiperEffectCreative]"
+    :slides-per-view="1"
+    :loop="true"
+    :effect="'creative'"
+    :pagination="true"
+    :autoplay="{
+      delay: 8000,
+      disableOnInteraction: false,
+    }"
+    :creative-effect="{
+      prev: {
+        shadow: false,
+        translate: ['-20%', 0, -1],
+      },
+      next: {
+        translate: ['100%', 0, 0],
+      },
+    }"
+  >
+    <SwiperSlide v-for="image in count" :key="image">
+      <template #fallback> Loading... </template>
+      <ClientOnly>
+        <img class="brightness-90" :src="images[`${image}`]" alt="hero" />
+      </ClientOnly>
+    </SwiperSlide>
+
+    <SwiperControls />
+  </Swiper>
 </template>
