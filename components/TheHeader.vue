@@ -27,7 +27,7 @@ const routes: Array<Route> = [
 </script>
 
 <template>
-  <nav class="bg-white shadow-md sticky z-10">
+  <nav class="bg-white shadow-md sticky top-0 z-10">
     <div class="max-w-6xl mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex space-x-4">
