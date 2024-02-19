@@ -7,21 +7,16 @@
           <h1
             class="text-6xl font-bold tracking-tight text-gray-900 sm:text-6xl"
           >
-            Classic Sportscar Centre
+            {{ $t("brand") }}
           </h1>
           <p class="mt-6 text-lg leading-8 text-gray-700">
-            Classic sportscar centre is the adress for repair and maintenance of
-            classic and sportscars of all makes and years, but we like German
-            cars of the 70`s and 80`s like the Mercedes w107 and Porsche 911 the
-            most. With over 25 years of experience in classic and sportscars we
-            are a true and reliable partner for anyone with or anyone who
-            desires a classic sporstcar!
+            {{ $t("homepage.intro") }}
             <NuxtLink
               to="/contact"
-              class="font-semibold leading-6 text-gray-900 hover:underline hover:text-gray-600"
+              class="font-semibold leading-6 text-gray-900 whitespace-nowrap hover:underline hover:text-gray-600"
+              >{{ $t("contact_us") }}
+              <span aria-hidden="true">→</span></NuxtLink
             >
-              Contact us <span aria-hidden="true">→</span>
-            </NuxtLink>
           </p>
         </div>
 
@@ -32,36 +27,36 @@
             <h2
               class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl"
             >
-              Explore Our Restoration Services
+              {{ $t("homepage.restoration.title") }}
             </h2>
             <p class="text-lg leading-8 text-gray-700">
-              If you are considering restoring your classic Mercedes R107 to its
-              original condition, we invite you to
+              {{ $t("homepage.restoration.content") }}
               <NuxtLink
                 to="/restoration"
-                class="font-semibold leading-6 text-gray-900 hover:underline hover:text-gray-600"
-                >explore our restoration services</NuxtLink
+                class="font-semibold leading-6 text-gray-900 whitespace-nowrap hover:underline hover:text-gray-600"
+                >{{ $t("homepage.restoration.link") }}
+                <span aria-hidden="true">→</span></NuxtLink
               >
-              for detailed information.
             </p>
           </div>
-          <div>
-            <h2
-              class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl"
-            >
-              Discover Our Servicing & Maintenance Solutions
-            </h2>
-            <p class="text-lg leading-8 text-gray-700">
-              To ensure the continued performance and longevity of your classic
-              Mercedes R107, we offer comprehensive servicing and maintenance
-              solutions. Learn more and
-              <NuxtLink
-                to="/service-and-maintenance"
-                class="font-semibold leading-6 text-gray-900 hover:underline hover:text-gray-600"
-                >discover our servicing & maintenance options</NuxtLink
+
+          <div class="mt-8 grid gap-6">
+            <div>
+              <h2
+                class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl"
               >
-              here.
-            </p>
+                {{ $t("homepage.service.title") }}
+              </h2>
+              <p class="text-lg leading-8 text-gray-700">
+                {{ $t("homepage.service.content") }}
+                <NuxtLink
+                  to="/service-and-maintenance"
+                  class="font-semibold leading-6 text-gray-900 whitespace-nowrap hover:underline hover:text-gray-600"
+                  >{{ $t("homepage.service.link") }}
+                  <span aria-hidden="true">→</span></NuxtLink
+                >
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,36 @@
+{
+  brand: "Classic Sportscar Centre",
+  all_rights_reserved: "Alle rechten voorbehouden.",
+  contact_us: "Neem contact op",
+  en: "Engels",
+  nl: "Nederlands",
+  routes: {
+    home: "Home",
+    restoration: "Restauratie",
+    service: "Service en onderhoud",
+    contact: "Contact",
+  },
+  homepage: {
+    intro: "Classic Sportscar Centre is het adres voor reparatie en onderhoud van klassieke en sportauto's van alle merken en jaren, maar we hebben een voorkeur voor Duitse auto's uit de jaren 70 en 80, zoals de Mercedes w107 en Porsche 911. Met meer dan 25 jaar ervaring in klassieke en sportauto's zijn we een echte en betrouwbare partner voor iedereen met of die verlangt naar een klassieke sportauto!",
+    restoration: {
+      title: "Ontdek onze restauratiediensten",
+      content: "Als u overweegt om uw klassieke Mercedes R107 in originele staat te herstellen, nodigen we u uit om onze restauratiediensten te verkennen voor gedetailleerde informatie.",
+      link: "Ga naar restauratie",
+    },
+    service: {
+      title: "Ontdek onze service- en onderhoudsoplossingen",
+      content: "Om de voortdurende prestaties en levensduur van uw klassieke Mercedes R107 te waarborgen, bieden wij uitgebreide service- en onderhoudsoplossingen aan. Leer meer en ontdek onze service- en onderhoudsopties hier.",
+      link: "Ga naar service en onderhoud",
+    },
+  },
+  contact: {
+    title: "Wilt u contact met ons opnemen? Zo doe je dat:",
+    location: "Haarlem, Nederland",
+    phone: "Telefoon: ",
+    phone_number: "+31 6 53 72 84 62",
+    email: "E-mail: ",
+    facebook: "Facebook: ",
+    facebook_url: "facebook.com",
+    content: "Voor vragen, afspraken of andere vragen, neem gerust contact met ons op via de bovenstaande contactgegevens. We kijken ernaar uit van u te horen!",
+  },
+}

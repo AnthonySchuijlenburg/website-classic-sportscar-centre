@@ -1,13 +1,35 @@
+<script setup lang="ts">
+const switchLocalePath = useSwitchLocalePath();
+const { locale } = useI18n();
+</script>
+
 <template>
-  <footer class="bg-white rounded-lg shadow">
+  <footer
+    class="bg-white w-full rounded-lg shadow mx-auto max-w-2xl md:max-w-4xl"
+  >
     <div
       class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
     >
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
         >© {{ new Date().getFullYear() }}
-        <span class="font-medium">Classic Sportscar Centre</span>. All Rights
-        Reserved.
+        <span class="font-medium">{{ $t("brand") }}</span>
+        {{ $t("all_rights_reserved") }}
       </span>
+
+      <div class="flex gap-4">
+        <button
+          class="border rounded px-2 py-1"
+          :class="{ 'border-blue-800': locale === 'en' }"
+        >
+          <NuxtLink :to="switchLocalePath('en')">🇬🇧 {{ $t("en") }}</NuxtLink>
+        </button>
+        <button
+          class="border rounded px-2 py-1"
+          :class="{ 'border-blue-800': locale === 'nl' }"
+        >
+          <NuxtLink :to="switchLocalePath('nl')">🇳🇱 {{ $t("nl") }}</NuxtLink>
+        </button>
+      </div>
     </div>
   </footer>
 </template>

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const localePath = useLocalePath();
+
 interface Route {
   location: string;
   label: string;
@@ -9,19 +11,19 @@ const navigationOpen = ref<boolean>(false);
 const routes: Array<Route> = [
   {
     location: "/",
-    label: "Home",
+    label: "routes.home",
   },
   {
     location: "/restoration",
-    label: "Restoration",
+    label: "routes.restoration",
   },
   {
     location: "/service-and-maintenance",
-    label: "Service and Maintenance",
+    label: "routes.service",
   },
   {
     location: "/contact",
-    label: "Contact Us",
+    label: "routes.contact",
   },
 ];
 </script>
@@ -46,9 +48,9 @@ const routes: Array<Route> = [
           <NuxtLink
             v-for="link in routes"
             :key="link.location"
-            :to="link.location"
+            :to="localePath(link.location)"
             class="py-5 px-3 text-gray-700 hover:text-gray-900"
-            >{{ link.label }}</NuxtLink
+            >{{ $t(link.label) }}</NuxtLink
           >
         </div>
 

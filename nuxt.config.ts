@@ -7,11 +7,28 @@ export default defineNuxtConfig({
       autoSubfolderIndex: false,
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-lucide-icons", "nuxt-swiper"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/i18n",
+    "nuxt-lucide-icons",
+    "nuxt-swiper",
+  ],
   lucide: {
     namePrefix: "Icon",
   },
   vite: {
     plugins: [viteImageOptimizer()],
+  },
+  i18n: {
+    locales: [
+      { code: "en", file: "en.json5" },
+      { code: "nl", file: "nl.json5" },
+    ],
+    lazy: false,
+    langDir: "locales",
+    defaultLocale: "en",
+    compilation: {
+      strictMessage: true,
+    },
   },
 });

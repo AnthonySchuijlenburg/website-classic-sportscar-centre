@@ -5,23 +5,25 @@
         <h1
           class="text-4xl text-center font-bold tracking-tight text-gray-900 sm:text-6xl"
         >
-          Contact us
+          {{ $t("contact_us") }}
         </h1>
         <p class="mt-8 text-lg leading-8 text-gray-700">
-          Need to get in touch with us? Here's how:
+          {{ $t("contact.title") }}
         </p>
         <p class="mt-2 text-lg leading-8 text-gray-700">
-          <span class="font-bold">Classic Sportscar Centre</span>
-        </p>
-        <p class="text-lg leading-8 text-gray-700">Haarlem, The Netherlands</p>
-        <p class="mt-4 text-lg leading-8 text-gray-700">
-          <span class="font-semibold">Phone: </span
-          ><a class="underline hover:text-blue-800" href="tel:+31653728462"
-            >+31 6 53 72 84 62</a
-          >
+          <span class="font-bold">{{ $t("brand") }}</span>
         </p>
         <p class="text-lg leading-8 text-gray-700">
-          <span class="font-semibold">Email: </span
+          {{ $t("contact.location") }}
+        </p>
+        <p class="mt-4 text-lg leading-8 text-gray-700">
+          <span class="font-semibold">{{ $t("contact.phone") }}</span
+          ><a class="underline hover:text-blue-800" href="tel:+31653728462">
+            {{ $t("contact.phone_number") }}
+          </a>
+        </p>
+        <p class="text-lg leading-8 text-gray-700">
+          <span class="font-semibold">{{ $t("contact.email") }}</span
           ><a
             class="underline hover:text-blue-800"
             href="mailto:info@classicsportscarcentre.com"
@@ -29,19 +31,17 @@
           >
         </p>
         <p class="text-lg leading-8 text-gray-700">
-          <span class="font-semibold">Facebook: </span
+          <span class="font-semibold">{{ $t("contact.facebook") }}</span
           ><a
             class="underline hover:text-blue-800"
             rel="nofollow"
             target="blank"
             href="https://www.facebook.com/p/Classic-Sportscar-Centre-100045209156136/"
-            >facebook.com</a
+            >{{ $t("contact.facebook_url") }}</a
           >
         </p>
         <p class="mt-4 text-lg leading-8 text-gray-700">
-          For inquiries, appointments, or any other questions, feel free to
-          reach out to us using the contact information provided above. We look
-          forward to hearing from you!
+          {{ $t("contact.content") }}
         </p>
       </div>
     </div>
