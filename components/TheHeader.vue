@@ -37,6 +37,7 @@ const routes: Array<Route> = [
             <NuxtLink
               :to="localePath('/')"
               class="flex justify-center items-center h-16"
+              :aria-label="$t('routes.home')"
             >
               <img
                 class="h-14 py-1 object-contain"

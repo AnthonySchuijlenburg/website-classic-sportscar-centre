@@ -83,4 +83,8 @@
     },
     cta: "Ready to schedule a service appointment for your classic Mercedes R107? Contact us today to discuss your servicing and maintenance needs and book an appointment with our team of experts.",
   },
+  swiper: {
+    previous: "Previous slide",
+    next: "Next slide",
+  },
 }

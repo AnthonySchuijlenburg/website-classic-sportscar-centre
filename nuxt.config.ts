@@ -20,8 +20,8 @@ export default defineNuxtConfig({
     description: "Classic and sportscar specialists.",
     trailingSlash: false,
   },
-  ogImage: { 
-    enabled: false 
+  ogImage: {
+    enabled: false,
   },
   lucide: {
     namePrefix: "Icon",
