@@ -10,9 +10,16 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
+    "@nuxtjs/seo",
     "nuxt-lucide-icons",
     "nuxt-swiper",
   ],
+  site: {
+    url: "https://classicsportscarcentre.com/",
+    name: "Classic Sportscar Centre",
+    description: "Classic and sportscar specialists.",
+    trailingSlash: false,
+  },
   lucide: {
     namePrefix: "Icon",
   },

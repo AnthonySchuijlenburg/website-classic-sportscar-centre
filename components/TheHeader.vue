@@ -34,7 +34,10 @@ const routes: Array<Route> = [
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <div>
-            <NuxtLink to="/" class="flex justify-center items-center h-16">
+            <NuxtLink
+              :to="localePath('/')"
+              class="flex justify-center items-center h-16"
+            >
               <img
                 class="h-14 py-1 object-contain"
                 src="@/assets/images/logo.png"

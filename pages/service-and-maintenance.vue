@@ -1,3 +1,11 @@
+<script lang="ts" setup>
+const { t: $t } = useI18n();
+
+useSeoMeta({
+  title: $t("service.title"),
+});
+</script>
+
 <template>
   <div class="relative isolate px-6 py-14 pb-16 lg:px-8">
     <div class="mx-auto max-w-2xl py-8 sm:py-12 md:max-w-4xl lg:py-16">
