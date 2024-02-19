@@ -24,7 +24,7 @@ export default defineNuxtConfig({
       { code: "en", file: "en.json5" },
       { code: "nl", file: "nl.json5" },
     ],
-    lazy: false,
+    lazy: true,
     langDir: "locales",
     defaultLocale: "en",
     compilation: {

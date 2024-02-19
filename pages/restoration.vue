@@ -3,20 +3,16 @@
     <div class="mx-auto max-w-2xl py-8 sm:py-12 md:max-w-4xl lg:py-16">
       <div class="text-center">
         <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-          Restoration Services
+          {{ $t("restoration.title") }}
         </h1>
         <p class="mt-6 text-lg leading-8 text-gray-700">
-          At Classic Sportscar Centre, we specialize in the meticulous
-          restoration of classic Mercedes R107 vehicles. With a wealth of
-          experience and a dedication to preserving the heritage of these iconic
-          cars, our team of skilled technicians ensures that every restoration
-          project is executed with precision and attention to detail.
+          {{ $t("restoration.intro") }}
         </p>
       </div>
 
       <div class="mt-6 py-4">
         <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          Comprehensive Assessment
+          {{ $t("restoration.comprehensive_assessment.title") }}
         </h2>
         <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
           <img
@@ -25,26 +21,18 @@
             alt="Image"
           />
           <p>
-            Our restoration process begins with a comprehensive assessment of
-            the vehicle's condition. Through careful inspection and evaluation,
-            we identify areas requiring attention and develop a tailored
-            restoration plan to address each aspect of the vehicle's restoration
-            needs.
+            {{ $t("restoration.comprehensive_assessment.content") }}
           </p>
         </div>
       </div>
 
       <div class="py-4">
         <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          Authenticity and Quality
+          {{ $t("restoration.authenticity_and_quality.title") }}
         </h2>
         <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
           <p>
-            We understand the importance of authenticity in preserving the
-            timeless appeal of classic Mercedes R107 models. That's why we use
-            only genuine parts and materials sourced from reputable suppliers,
-            ensuring that every component installed during the restoration
-            process meets the highest standards of quality and authenticity.
+            {{ $t("restoration.authenticity_and_quality.content") }}
           </p>
           <img
             class="w-full object-cover aspect-video rounded-sm"
@@ -56,7 +44,7 @@
 
       <div class="py-4">
         <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          Craftsmanship and Attention to Detail
+          {{ $t("restoration.craftsmanship.title") }}
         </h2>
         <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
           <img
@@ -65,26 +53,18 @@
             alt="Image"
           />
           <p>
-            Restoring a classic Mercedes R107 requires a blend of craftsmanship
-            and technical expertise. Our team of experienced technicians
-            possesses the skills and knowledge necessary to execute intricate
-            restoration work, from bodywork and paint to mechanical repairs and
-            interior refurbishment, with meticulous attention to detail.
+            {{ $t("restoration.craftsmanship.content") }}
           </p>
         </div>
       </div>
 
       <div class="py-4">
         <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          Restoration Process
+          {{ $t("restoration.process.title") }}
         </h2>
         <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
           <p>
-            Our restoration process is a meticulous journey that involves
-            disassembly, restoration, and reassembly of the vehicle. Each step
-            is carried out with precision and care, ensuring that every
-            component is restored to its original condition or replaced with
-            authentic parts when necessary.
+            {{ $t("restoration.process.content") }}
           </p>
           <img
             class="w-full object-cover aspect-video rounded-sm"
@@ -96,7 +76,7 @@
 
       <div class="py-4">
         <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          Customer Satisfaction
+          {{ $t("restoration.customer_satisfaction.title") }}
         </h2>
         <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
           <img
@@ -105,25 +85,17 @@
             alt="Image"
           />
           <p>
-            At Classic Sportscar Centre, customer satisfaction is our top
-            priority. Throughout the restoration journey, we keep our clients
-            informed and involved, providing regular updates and addressing any
-            concerns or questions they may have to ensure a smooth and
-            satisfying restoration experience.
+            {{ $t("restoration.customer_satisfaction.content") }}
           </p>
         </div>
       </div>
 
       <div class="text-center mt-6">
         <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-          Before and after
+          {{ $t("restoration.before_and_after.title") }}
         </h2>
         <p class="mt-2 text-lg leading-8 text-gray-700">
-          We take pride in showcasing the transformative results of our
-          restoration work. Through before-and-after photos, we invite you to
-          witness the remarkable transformation of classic Mercedes R107
-          vehicles under our care, highlighting the craftsmanship and dedication
-          that define our restoration process.
+          {{ $t("restoration.before_and_after.content") }}
         </p>
 
         <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -144,17 +116,15 @@
 
       <div class="text-center mt-6">
         <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          Contact us
+          {{ $t("contact_us") }}
         </h2>
         <p class="mt-2 text-lg leading-8 text-gray-700">
-          Ready to embark on the restoration journey for your classic Mercedes
-          R107? Contact us today to discuss your restoration project and
-          schedule a consultation with our team of experts.
+          {{ $t("restoration.cta") }}
           <NuxtLink
             to="/contact"
             class="font-semibold leading-6 text-gray-900 hover:underline hover:text-gray-600"
           >
-            Contact us <span aria-hidden="true">→</span>
+            {{ $t("contact_us") }} <span aria-hidden="true">→</span>
           </NuxtLink>
         </p>
       </div>

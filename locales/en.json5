@@ -33,4 +33,33 @@
     facebook_url: "facebook.com",
     content: "For inquiries, appointments, or any other questions, feel free to reach out to us using the contact information provided above. We look forward to hearing from you!",
   },
+  restoration: {
+    title: "Restoration Services",
+    intro: "At Classic Sportscar Centre, we specialize in the meticulous restoration of classic Mercedes R107 vehicles. With a wealth of experience and a dedication to preserving the heritage of these iconic cars, our team of skilled technicians ensures that every restoration project is executed with precision and attention to detail.",
+    comprehensive_assessment: {
+      title: "Comprehensive Assessment",
+      content: "Our restoration process begins with a comprehensive assessment of the vehicle's condition. Through careful inspection and evaluation, we identify areas requiring attention and develop a tailored restoration plan to address each aspect of the vehicle's restoration needs.",
+    },
+    authenticity_and_quality: {
+      title: "Authenticity and Quality",
+      content: "We understand the importance of authenticity in preserving the timeless appeal of classic Mercedes R107 models. That's why we use only genuine parts and materials sourced from reputable suppliers, ensuring that every component installed during the restoration process meets the highest standards of quality and authenticity.",
+    },
+    craftsmanship: {
+      title: "Craftsmanship and Attention to Detail",
+      content: "Restoring a classic Mercedes R107 requires a blend of craftsmanship and technical expertise. Our team of experienced technicians possesses the skills and knowledge necessary to execute intricate restoration work, from bodywork and paint to mechanical repairs and interior refurbishment, with meticulous attention to detail.",
+    },
+    process: {
+      title: "Restoration Process",
+      content: "Our restoration process is a meticulous journey that involves disassembly, restoration, and reassembly of the vehicle. Each step is carried out with precision and care, ensuring that every component is restored to its original condition or replaced with authentic parts when necessary.",
+    },
+    customer_satisfaction: {
+      title: "Customer Satisfaction",
+      content: "At Classic Sportscar Centre, customer satisfaction is our top priority. Throughout the restoration journey, we keep our clients informed and involved, providing regular updates and addressing any concerns or questions they may have to ensure a smooth and satisfying restoration experience.",
+    },
+    before_and_after: {
+      title: "Before and after",
+      content: "We take pride in showcasing the transformative results of our restoration work. Through before-and-after photos, we invite you to witness the remarkable transformation of classic Mercedes R107 vehicles under our care, highlighting the craftsmanship and dedication that define our restoration process.",
+    },
+    cta: "Ready to embark on the restoration journey for your classic Mercedes R107? Contact us today to discuss your restoration project and schedule a consultation with our team of experts.",
+  },
 }

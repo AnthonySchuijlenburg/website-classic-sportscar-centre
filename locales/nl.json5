@@ -33,4 +33,33 @@
     facebook_url: "facebook.com",
     content: "Voor vragen, afspraken of andere vragen, neem gerust contact met ons op via de bovenstaande contactgegevens. We kijken ernaar uit van u te horen!",
   },
+  restoration: {
+    title: "Restauratiediensten",
+    intro: "Bij Classic Sportscar Centre zijn we gespecialiseerd in de nauwgezette restauratie van klassieke Mercedes R107 voertuigen. Met een schat aan ervaring en toewijding aan het behoud van het erfgoed van deze iconische auto's, zorgt ons team van vakkundige technici ervoor dat elk restauratieproject met precisie en aandacht voor detail wordt uitgevoerd.",
+    comprehensive_assessment: {
+      title: "Uitgebreide Beoordeling",
+      content: "Ons restauratieproces begint met een uitgebreide beoordeling van de staat van het voertuig. Door zorgvuldige inspectie en evaluatie identificeren we gebieden die aandacht vereisen en ontwikkelen we een op maat gemaakt restauratieplan om aan elk aspect van de restauratiebehoeften van het voertuig te voldoen.",
+    },
+    authenticity_and_quality: {
+      title: "Authenticiteit en Kwaliteit",
+      content: "We begrijpen het belang van authenticiteit bij het behouden van de tijdloze aantrekkingskracht van klassieke Mercedes R107 modellen. Daarom gebruiken we alleen echte onderdelen en materialen afkomstig van betrouwbare leveranciers, zodat elk onderdeel dat tijdens het restauratieproces wordt geïnstalleerd voldoet aan de hoogste normen van kwaliteit en authenticiteit.",
+    },
+    craftsmanship: {
+      title: "Vakmanschap en Aandacht voor Detail",
+      content: "Het restaureren van een klassieke Mercedes R107 vereist een combinatie van vakmanschap en technische expertise. Ons team van ervaren technici bezit de vaardigheden en kennis die nodig zijn om complex restauratiewerk uit te voeren, van carrosserie- en lakwerk tot mechanische reparaties en interieurvernieuwing, met nauwgezette aandacht voor detail.",
+    },
+    process: {
+      title: "Restauratieproces",
+      content: "Ons restauratieproces is een nauwgezette reis die het demonteren, restaureren en weer monteren van het voertuig omvat. Elke stap wordt met precisie en zorg uitgevoerd, zodat elk onderdeel wordt gerestaureerd naar zijn oorspronkelijke staat of vervangen wordt door authentieke onderdelen indien nodig.",
+    },
+    customer_satisfaction: {
+      title: "Klanttevredenheid",
+      content: "Bij Classic Sportscar Centre is klanttevredenheid onze hoogste prioriteit. Gedurende de restauratie houden we onze klanten op de hoogte en betrokken, met regelmatige updates en het adresseren van eventuele zorgen of vragen die ze kunnen hebben om een soepele en bevredigende restauratie-ervaring te garanderen.",
+    },
+    before_and_after: {
+      title: "Voor en Na",
+      content: "We zijn trots op het tonen van de transformerende resultaten van ons restauratiewerk. Via voor-en-na foto's nodigen we u uit om de opmerkelijke transformatie van klassieke Mercedes R107 voertuigen onder onze hoede te zien, waarbij we het vakmanschap en de toewijding benadrukken die ons restauratieproces definiëren.",
+    },
+    cta: "Klaar om aan de restauratiereis voor uw klassieke Mercedes R107 te beginnen? Neem vandaag nog contact met ons op om uw restauratieproject te bespreken en een consultatie in te plannen met ons team van experts.",
+  },
 }
