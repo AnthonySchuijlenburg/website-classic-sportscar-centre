@@ -128,12 +128,12 @@
 
         <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
           <img
-            class="w-full object-cover aspect-video rounded-sm row-start-2 md:row-start-auto"
+            class="w-full object-cover aspect-video rounded-sm "
             src="@/assets/images/restoration/before.jpg"
             alt="Image"
           />
           <img
-            class="w-full object-cover aspect-video rounded-sm row-start-2 md:row-start-auto"
+            class="w-full object-cover aspect-video rounded-sm"
             src="@/assets/images/restoration/after.jpg"
             alt="Image"
           />
@@ -142,7 +142,7 @@
 
       <div class="text-center mt-6">
         <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          Before and after
+          Contact us
         </h2>
         <p class="mt-2 text-lg leading-8 text-gray-700">
           Ready to embark on the restoration journey for your classic Mercedes
