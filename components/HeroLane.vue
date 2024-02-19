@@ -25,7 +25,7 @@ const count = computed(() => {
 
 <template>
   <Swiper
-    class="relative"
+    class="relative w-full"
     :modules="[SwiperAutoplay, SwiperEffectCreative]"
     :slides-per-view="1"
     :loop="true"
@@ -48,7 +48,7 @@ const count = computed(() => {
     <SwiperSlide v-for="image in count" :key="image">
       <template #fallback> Loading... </template>
       <ClientOnly>
-        <img class="brightness-90" :src="images[`${image}`]" alt="hero" />
+        <img class="brightness-90 w-full max-h-[64rem] object-cover" :src="images[`${image}`]" alt="hero" />
       </ClientOnly>
     </SwiperSlide>
 
