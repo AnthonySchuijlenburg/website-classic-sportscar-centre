@@ -1,6 +1,6 @@
 <template>
   <div class="relative isolate px-6 py-14 pb-16 lg:px-8">
-    <div class="mx-auto max-w-2xl py-8 sm:py-12 lg:py-16">
+    <div class="mx-auto max-w-2xl py-8 sm:py-12 md:max-w-4xl lg:py-16">
       <div>
         <h1
           class="text-4xl text-center font-bold tracking-tight text-gray-900 sm:text-6xl"
