@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeroLane />
-    <div class="relative isolate px-6 py-14 pb-16 lg:px-8">
+    <div class="relative isolate px-6 py-0 md:py-14 pb-16 lg:px-8">
       <div class="mx-auto max-w-2xl py-8 sm:py-12 lg:py-16">
         <div class="text-center">
           <h1
