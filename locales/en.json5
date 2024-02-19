@@ -62,4 +62,25 @@
     },
     cta: "Ready to embark on the restoration journey for your classic Mercedes R107? Contact us today to discuss your restoration project and schedule a consultation with our team of experts.",
   },
+  service: {
+    title: "Service and Maintenance",
+    intro: "At Classic Sportscar Centre, we offer comprehensive servicing and maintenance solutions tailored to the unique needs of classic Mercedes R107 vehicles. With a focus on preserving performance, reliability, and longevity, our skilled technicians provide a range of services to keep your Mercedes R107 in optimal condition.",
+    routine: {
+      title: "Routine Maintenance",
+      content: "Regular servicing is essential for ensuring the continued performance and reliability of classic Mercedes R107 models. Our routine maintenance services include oil changes, fluid checks, brake inspections, and other essential tasks to keep your vehicle running smoothly and safely.",
+    },
+    inspection: {
+      title: "Comprehensive Inspections",
+      content: "Our experienced technicians conduct thorough inspections of your Mercedes R107 to identify any potential issues or areas requiring attention. From engine diagnostics to chassis inspections, we leave no stone unturned in ensuring that your vehicle is in top condition.",
+    },
+    parts: {
+      title: "Genuine Parts and Accessories",
+      content: "Maintaining the authenticity of classic Mercedes R107 vehicles is paramount to us. That's why we use only genuine parts and accessories sourced from reputable suppliers, ensuring that every component installed during servicing and maintenance meets the highest standards of quality and authenticity.",
+    },
+    service: {
+      title: "Service Packages",
+      content: "We understand that every classic Mercedes R107 owner has unique needs and preferences when it comes to servicing and maintenance. That's why we offer customizable service packages designed to accommodate your specific requirements, ensuring that you receive the level of care and attention your vehicle deserves.",
+    },
+    cta: "Ready to schedule a service appointment for your classic Mercedes R107? Contact us today to discuss your servicing and maintenance needs and book an appointment with our team of experts.",
+  },
 }

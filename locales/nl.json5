@@ -62,4 +62,25 @@
     },
     cta: "Klaar om aan de restauratiereis voor uw klassieke Mercedes R107 te beginnen? Neem vandaag nog contact met ons op om uw restauratieproject te bespreken en een consultatie in te plannen met ons team van experts.",
   },
+  service: {
+    title: "Service en Onderhoud",
+    intro: "Bij Classic Sportscar Centre bieden we uitgebreide service- en onderhoudsoplossingen die zijn afgestemd op de unieke behoeften van klassieke Mercedes R107-voertuigen. Met een focus op het behouden van prestaties, betrouwbaarheid en levensduur, bieden onze vakkundige technici een scala aan diensten om uw Mercedes R107 in optimale conditie te houden.",
+    routine: {
+      title: "Routinematig Onderhoud",
+      content: "Regelmatig onderhoud is essentieel om de voortdurende prestaties en betrouwbaarheid van klassieke Mercedes R107-modellen te waarborgen. Onze routinematige onderhoudsdiensten omvatten olieverversingen, vloeistofcontroles, reminspecties en andere essentiële taken om uw voertuig soepel en veilig te laten rijden.",
+    },
+    inspection: {
+      title: "Uitgebreide Inspecties",
+      content: "Onze ervaren technici voeren grondige inspecties uit van uw Mercedes R107 om eventuele mogelijke problemen of gebieden die aandacht vereisen te identificeren. Van motorische diagnostiek tot chassisinspecties, we laten geen steen onberoerd om ervoor te zorgen dat uw voertuig in topconditie verkeert.",
+    },
+    parts: {
+      title: "Originele Onderdelen en Accessoires",
+      content: "Het behouden van de authenticiteit van klassieke Mercedes R107-voertuigen is voor ons van het grootste belang. Daarom gebruiken we alleen originele onderdelen en accessoires afkomstig van betrouwbare leveranciers, waardoor elk onderdeel dat tijdens service en onderhoud wordt geïnstalleerd voldoet aan de hoogste normen van kwaliteit en authenticiteit.",
+    },
+    service: {
+      title: "Servicepakketten",
+      content: "We begrijpen dat elke eigenaar van een klassieke Mercedes R107 unieke behoeften en voorkeuren heeft als het gaat om service en onderhoud. Daarom bieden we aanpasbare servicepakketten die zijn ontworpen om aan uw specifieke eisen te voldoen, zodat u het niveau van zorg en aandacht krijgt dat uw voertuig verdient.",
+    },
+    cta: "Klaar om een serviceafspraak in te plannen voor uw klassieke Mercedes R107? Neem vandaag nog contact met ons op om uw service- en onderhoudsbehoeften te bespreken en een afspraak te maken met ons team van experts.",
+  },
 }
