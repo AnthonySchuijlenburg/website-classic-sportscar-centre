@@ -48,7 +48,11 @@ const count = computed(() => {
     <SwiperSlide v-for="image in count" :key="image">
       <template #fallback> Loading... </template>
       <ClientOnly>
-        <img class="brightness-90 w-full max-h-[64rem] object-cover" :src="images[`${image}`]" alt="hero" />
+        <img
+          class="brightness-90 w-full max-h-[64rem] object-cover"
+          :src="images[`${image}`]"
+          alt="hero"
+        />
       </ClientOnly>
     </SwiperSlide>
 
