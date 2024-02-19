@@ -83,4 +83,8 @@
     },
     cta: "Klaar om een serviceafspraak in te plannen voor uw klassieke Mercedes R107? Neem vandaag nog contact met ons op om uw service- en onderhoudsbehoeften te bespreken en een afspraak te maken met ons team van experts.",
   },
+  swiper: {
+    previous: "Vorige slide",
+    next: "Volgende slide",
+  },
 }
