@@ -71,11 +71,11 @@ const routes: Array<Route> = [
       <NuxtLink
         v-for="link in routes"
         :key="link.location"
-        :to="link.location"
+        :to="localePath(link.location)"
         class="block py-2 px-4 text-sm hover:bg-gray-200"
         @click="navigationOpen = !navigationOpen"
       >
-        {{ link.label }}</NuxtLink
+        {{ $t(link.label) }}</NuxtLink
       >
     </div>
   </nav>
