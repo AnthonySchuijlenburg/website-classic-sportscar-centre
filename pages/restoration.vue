@@ -128,7 +128,7 @@
 
         <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
           <img
-            class="w-full object-cover aspect-video rounded-sm "
+            class="w-full object-cover aspect-video rounded-sm"
             src="@/assets/images/restoration/before.jpg"
             alt="Image"
           />
