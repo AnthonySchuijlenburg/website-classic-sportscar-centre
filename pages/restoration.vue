@@ -5,6 +5,25 @@ const localePath = useLocalePath();
 useSeoMeta({
   title: $t("restoration.title"),
 });
+
+const lanes = [
+  "comprehensive_assessment",
+  "authenticity_and_quality",
+  "craftsmanship",
+  "process",
+  "customer_satisfaction",
+];
+
+interface Image {
+  default: string;
+}
+
+const glob: Record<string, Promise<Image>> = import.meta.glob(
+  "@/assets/images/restoration/*.jpg",
+  { eager: true },
+);
+
+const images = await useAssetFilePaths(glob);
 </script>
 
 <template>
@@ -19,85 +38,13 @@ useSeoMeta({
         </p>
       </div>
 
-      <div class="mt-6 py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("restoration.comprehensive_assessment.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <img
-            class="w-full object-cover aspect-video rounded-sm row-start-2 md:row-start-auto"
-            src="@/assets/images/restoration/1.jpg"
-            alt="Image"
-          />
-          <p>
-            {{ $t("restoration.comprehensive_assessment.content") }}
-          </p>
-        </div>
-      </div>
-
-      <div class="py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("restoration.authenticity_and_quality.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <p>
-            {{ $t("restoration.authenticity_and_quality.content") }}
-          </p>
-          <img
-            class="w-full object-cover aspect-video rounded-sm"
-            src="@/assets/images/restoration/2.jpg"
-            alt="Image"
-          />
-        </div>
-      </div>
-
-      <div class="py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("restoration.craftsmanship.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <img
-            class="w-full object-cover aspect-video rounded-sm row-start-2 md:row-start-auto"
-            src="@/assets/images/restoration/3.jpg"
-            alt="Image"
-          />
-          <p>
-            {{ $t("restoration.craftsmanship.content") }}
-          </p>
-        </div>
-      </div>
-
-      <div class="py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("restoration.process.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <p>
-            {{ $t("restoration.process.content") }}
-          </p>
-          <img
-            class="w-full object-cover aspect-video rounded-sm"
-            src="@/assets/images/restoration/4.jpg"
-            alt="Image"
-          />
-        </div>
-      </div>
-
-      <div class="py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("restoration.customer_satisfaction.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <img
-            class="w-full object-cover aspect-video rounded-sm row-start-2 md:row-start-auto"
-            src="@/assets/images/restoration/5.jpg"
-            alt="Image"
-          />
-          <p>
-            {{ $t("restoration.customer_satisfaction.content") }}
-          </p>
-        </div>
-      </div>
+      <ImageLane
+        v-for="(lane, index) in lanes"
+        :key="lane"
+        :name="`restoration.${lane}`"
+        :align-right="index % 2 !== 0"
+        :image-url="images[index + 1]"
+      />
 
       <div class="text-center mt-6">
         <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">

@@ -26,21 +26,23 @@ onBeforeMount(() => {
 </script>
 
 <template>
-  <div
-    v-if="!cookie"
-    class="flex justify-between items-center gap-4 bg-gray-100 px-4 py-6 fixed bottom-0 left-0 w-full md:py-4"
-  >
-    <p class="text-sm text-gray-700">
-      {{ $t("cookies.title") }}
-      <NuxtLink :to="localePath('/privacy')" class="underline">{{
-        $t("cookies.link")
-      }}</NuxtLink>
-    </p>
-    <button
-      class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
-      @click="cookie = true"
+  <ClientOnly>
+    <div
+      v-if="!cookie"
+      class="flex justify-between items-center gap-4 bg-gray-100 px-4 py-6 fixed bottom-0 left-0 w-full md:py-4"
     >
-      {{ $t("cookies.accept") }}
-    </button>
-  </div>
+      <p class="text-sm text-gray-700">
+        {{ $t("cookies.title") }}
+        <NuxtLink :to="localePath('/privacy')" class="underline">{{
+          $t("cookies.link")
+        }}</NuxtLink>
+      </p>
+      <button
+        class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
+        @click="cookie = true"
+      >
+        {{ $t("cookies.accept") }}
+      </button>
+    </div>
+  </ClientOnly>
 </template>
