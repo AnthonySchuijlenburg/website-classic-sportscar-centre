@@ -1,22 +1,14 @@
 <script setup lang="ts">
-import { filename } from "pathe/utils";
-
-interface HeroImage {
+interface Image {
   default: string;
 }
 
-const glob: Record<string, Promise<HeroImage>> = import.meta.glob(
+const glob: Record<string, Promise<Image>> = import.meta.glob(
   "@/assets/images/heroes/*.jpg",
   { eager: true },
 );
-const images: Record<string, string> = Object.fromEntries(
-  await Promise.all(
-    Object.entries(glob).map(async ([key, valuePromise]) => {
-      const value = await valuePromise;
-      return [filename(key), value.default];
-    }),
-  ),
-);
+
+const images: Record<string, string> = await useAssetFilePaths(glob);
 
 const count = computed(() => {
   return Object.keys(images).length;
