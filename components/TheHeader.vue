@@ -30,7 +30,7 @@ const routes: Array<Route> = [
 
 <template>
   <nav class="bg-white shadow-md sticky top-0 z-10">
-    <div class="max-w-4xl mx-auto px-4">
+    <div class="max-w-2xl px-6 mx-auto md:max-w-4xl">
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <div>
@@ -53,7 +53,7 @@ const routes: Array<Route> = [
             v-for="link in routes"
             :key="link.location"
             :to="localePath(link.location)"
-            class="py-5 px-3 text-gray-700 hover:text-gray-900"
+            class="py-5 px-3 text-gray-700 hover:text-gray-900 last:pr-0"
             >{{ $t(link.label) }}</NuxtLink
           >
         </div>
