@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+const localePath = useLocalePath();
+
 definePageMeta({
   title: "Home",
 });
@@ -18,7 +20,7 @@ definePageMeta({
           <p class="mt-6 text-lg leading-8 text-gray-700">
             {{ $t("homepage.intro") }}
             <NuxtLink
-              to="/contact"
+              :to="localePath('/contact')"
               class="font-semibold leading-6 text-gray-900 whitespace-nowrap hover:underline hover:text-gray-600"
               >{{ $t("contact_us") }}
               <span aria-hidden="true">→</span></NuxtLink
@@ -38,7 +40,7 @@ definePageMeta({
             <p class="text-lg leading-8 text-gray-700">
               {{ $t("homepage.restoration.content") }}
               <NuxtLink
-                to="/restoration"
+                :to="localePath('/restoration')"
                 class="font-semibold leading-6 text-gray-900 whitespace-nowrap hover:underline hover:text-gray-600"
                 >{{ $t("homepage.restoration.link") }}
                 <span aria-hidden="true">→</span></NuxtLink
@@ -56,7 +58,7 @@ definePageMeta({
               <p class="text-lg leading-8 text-gray-700">
                 {{ $t("homepage.service.content") }}
                 <NuxtLink
-                  to="/service-and-maintenance"
+                  :to="localePath('/service-and-maintenance')"
                   class="font-semibold leading-6 text-gray-900 whitespace-nowrap hover:underline hover:text-gray-600"
                   >{{ $t("homepage.service.link") }}
                   <span aria-hidden="true">→</span></NuxtLink

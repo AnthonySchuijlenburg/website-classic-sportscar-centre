@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 const { t: $t } = useI18n();
+const localePath = useLocalePath();
 
 useSeoMeta({
   title: $t("service.title"),
@@ -91,7 +92,7 @@ useSeoMeta({
         <p class="mt-2 text-lg leading-8 text-gray-700">
           {{ $t("service.cta") }}
           <NuxtLink
-            to="/contact"
+            :to="localePath('/contact')"
             class="font-semibold leading-6 text-gray-900 whitespace-nowrap hover:underline hover:text-gray-600"
           >
             {{ $t("contact_us") }} <span aria-hidden="true">→</span>
