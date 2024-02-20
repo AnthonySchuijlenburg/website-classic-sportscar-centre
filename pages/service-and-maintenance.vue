@@ -5,6 +5,19 @@ const localePath = useLocalePath();
 useSeoMeta({
   title: $t("service.title"),
 });
+
+const lanes = ["routine", "inspection", "parts", "service"];
+
+interface Image {
+  default: string;
+}
+
+const glob: Record<string, Promise<Image>> = import.meta.glob(
+  "@/assets/images/service/*.jpg",
+  { eager: true },
+);
+
+const images = await useAssetFilePaths(glob);
 </script>
 
 <template>
@@ -19,69 +32,13 @@ useSeoMeta({
         </p>
       </div>
 
-      <div class="mt-6 py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("service.routine.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <p>
-            {{ $t("service.routine.content") }}
-          </p>
-          <img
-            class="w-full object-cover aspect-video rounded-sm"
-            src="@/assets/images/service/1.jpg"
-            alt="Image"
-          />
-        </div>
-      </div>
-
-      <div class="py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("service.inspection.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <p>
-            {{ $t("service.inspection.content") }}
-          </p>
-          <img
-            class="w-full object-cover aspect-video rounded-sm"
-            src="@/assets/images/service/2.jpg"
-            alt="Image"
-          />
-        </div>
-      </div>
-
-      <div class="py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("service.parts.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <p>
-            {{ $t("service.parts.content") }}
-          </p>
-          <img
-            class="w-full object-cover aspect-video rounded-sm"
-            src="@/assets/images/service/3.jpg"
-            alt="Image"
-          />
-        </div>
-      </div>
-
-      <div class="py-4">
-        <h2 class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-          {{ $t("service.service.title") }}
-        </h2>
-        <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
-          <p>
-            {{ $t("service.service.content") }}
-          </p>
-          <img
-            class="w-full object-cover aspect-video rounded-sm"
-            src="@/assets/images/service/4.jpg"
-            alt="Image"
-          />
-        </div>
-      </div>
+      <ImageLane
+        v-for="(lane, index) in lanes"
+        :key="lane"
+        :name="`service.${lane}`"
+        :align-right="false"
+        :image-url="images[index + 1]"
+      />
 
       <hr class="mt-6" />
 
