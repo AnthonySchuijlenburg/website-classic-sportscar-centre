@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "nuxt-lucide-icons",
     "nuxt-swiper",
+    "nuxt-cloudflare-analytics",
   ],
   site: {
     url: "https://classicsportscarcentre.com/",
@@ -41,4 +42,7 @@ export default defineNuxtConfig({
       strictMessage: true,
     },
   },
+  cloudflareAnalytics: {
+    token: '206616c15e9743799e7c8216757aefb1',
+  }
 });
