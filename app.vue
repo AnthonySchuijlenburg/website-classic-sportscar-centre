@@ -3,5 +3,6 @@
     <TheHeader />
     <NuxtPage class="flex-1" />
     <TheFooter />
+    <CookieBar />
   </div>
 </template>

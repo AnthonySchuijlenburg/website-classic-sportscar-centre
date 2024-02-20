@@ -16,7 +16,7 @@ const { locale } = useI18n();
         {{ $t("all_rights_reserved") }}
       </span>
 
-      <div class="flex gap-4">
+      <div class="flex gap-4 mt-4 md:mt-0">
         <button
           class="border rounded px-2 py-1"
           :class="{ 'border-blue-800': locale === 'en' }"

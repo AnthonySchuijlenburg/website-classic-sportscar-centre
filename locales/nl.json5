@@ -10,6 +10,11 @@
     service: "Service en onderhoud",
     contact: "Contact",
   },
+  cookies: {
+    title: "We gebruiken functionele cookies om ervoor te zorgen dat u de beste ervaring op onze website krijgt. Deze cookies worden niet gebruikt om gebruikers te volgen.",
+    link: "Meer informatie.",
+    accept: "Accepteren",
+  },
   homepage: {
     intro: "Classic Sportscar Centre is het adres voor reparatie en onderhoud van klassieke en sportauto's van alle merken en jaren, maar we hebben een voorkeur voor Duitse auto's uit de jaren 70 en 80, zoals de Mercedes w107 en Porsche 911. Met meer dan 25 jaar ervaring in klassieke en sportauto's zijn we een echte en betrouwbare partner voor iedereen met of die verlangt naar een klassieke sportauto!",
     restoration: {
@@ -82,6 +87,39 @@
       content: "We begrijpen dat elke eigenaar van een klassieke Mercedes R107 unieke behoeften en voorkeuren heeft als het gaat om service en onderhoud. Daarom bieden we aanpasbare servicepakketten die zijn ontworpen om aan uw specifieke eisen te voldoen, zodat u het niveau van zorg en aandacht krijgt dat uw voertuig verdient.",
     },
     cta: "Klaar om een serviceafspraak in te plannen voor uw klassieke Mercedes R107? Neem vandaag nog contact met ons op om uw service- en onderhoudsbehoeften te bespreken en een afspraak te maken met ons team van experts.",
+  },
+  privacy: {
+    title: "Privacyverklaring",
+    latest_update: "Deze verklaring is voor het laatst bijgewerkt op 20-02-2024",
+    content: "Deze Privacyverklaring legt uit hoe we uw persoonlijke informatie verzamelen, gebruiken en beschermen wanneer u onze website bezoekt. We zijn toegewijd aan het beschermen van uw privacy en het waarborgen van de beveiliging van uw persoonlijke informatie.",
+    information: {
+      title: "Informatie Die We Verzamelen:",
+      content: "Wanneer u onze website bezoekt, kunnen we bepaalde informatie over uw bezoek verzamelen, zoals uw IP-adres, browsertype en de pagina's die u bezoekt. We gebruiken deze informatie om trends te analyseren, de site te beheren, gebruikersbewegingen bij te houden en demografische informatie te verzamelen voor algemeen gebruik.",
+    },
+    use_of_cookies: {
+      title: "Gebruik van Cookies:",
+      content: "We gebruiken cookies om uw browse-ervaring op onze website te verbeteren. Deze cookies zijn strikt noodzakelijk voor de goede werking van de website en worden niet gebruikt voor trackingdoeleinden. Specifiek gebruiken we alleen de 'i18n_redirected' cookie om uw voorkeurstaal voor het gebruik van de site te onthouden.",
+    },
+    sharing: {
+      title: "Delen van Informatie:",
+      content: "We verkopen, verhandelen of anderszins overdragen uw persoonlijke informatie niet aan derden zonder uw toestemming. We kunnen uw informatie echter delen met vertrouwde derde partijen die ons helpen bij het beheren van onze website, het uitvoeren van ons bedrijf of het servicen van u, zolang die partijen ermee instemmen deze informatie vertrouwelijk te houden.",
+    },
+    security: {
+      title: "Gegevensbeveiliging:",
+      content: "We implementeren verschillende beveiligingsmaatregelen om de veiligheid van uw persoonlijke informatie te handhaven.",
+    },
+    consent: {
+      title: "Uw Toestemming:",
+      content: "Door onze website te gebruiken, stemt u in met onze Privacyverklaring en gaat u akkoord met de voorwaarden ervan",
+    },
+    changes: {
+      title: "Wijzigingen in Onze Privacyverklaring:",
+      content: "Als we besluiten onze Privacyverklaring te wijzigen, zullen we die wijzigingen op deze pagina plaatsen.",
+    },
+    contact: {
+      title: "Neem Contact Met Ons Op:",
+      content: "Als u vragen of opmerkingen heeft over onze Privacyverklaring, neem dan contact met ons op.",
+    },
   },
   swiper: {
     previous: "Vorige slide",

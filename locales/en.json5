@@ -10,6 +10,11 @@
     service: "Service and maintenance",
     contact: "Contact",
   },
+  cookies: {
+    title: "We use functional cookies to ensure you get the best experience on our website. These cookies are not used to track users. Learn more",
+    link: "here.",
+    accept: "Accept",
+  },
   homepage: {
     intro: "Classic Sportscar Centre is the adress for repair and maintenance of classic and sportscars of all makes and years, but we like German cars of the 70`s and 80`s like the Mercedes w107 and Porsche 911 the most. With over 25 years of experience in classic and sportscars we are a true and reliable partner for anyone with or anyone who desires a classic sporstcar!",
     restoration: {
@@ -82,6 +87,39 @@
       content: "We understand that every classic Mercedes R107 owner has unique needs and preferences when it comes to servicing and maintenance. That's why we offer customizable service packages designed to accommodate your specific requirements, ensuring that you receive the level of care and attention your vehicle deserves.",
     },
     cta: "Ready to schedule a service appointment for your classic Mercedes R107? Contact us today to discuss your servicing and maintenance needs and book an appointment with our team of experts.",
+  },
+  privacy: {
+    title: "Privacy Statement",
+    latest_update: "This statement has been last updated on 20-02-2024",
+    content: "This Privacy Statement explains how we collect, use, and protect your personal information when you visit our website. We are committed to safeguarding your privacy and ensuring the security of your personal information.",
+    information: {
+      title: "Information We Collect:",
+      content: "When you visit our website, we may collect certain information about your visit, such as your IP address, browser type, and the pages you access. We use this information to analyze trends, administer the site, track user movements, and gather demographic information for aggregate use.",
+    },
+    use_of_cookies: {
+      title: "Use of Cookies:",
+      content: "We use cookies to enhance your browsing experience on our website. These cookies are strictly necessary for the website to function properly and are not used for tracking purposes. Specifically we only use the 'i18n_redirected' cookie to keep in mind what language you prefer to use the site in.",
+    },
+    sharing: {
+      title: "Sharing of Information:",
+      content: "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent. However, we may share your information with trusted third parties who assist us in operating our website, conducting our business, or servicing you, as long as those parties agree to keep this information confidential.",
+    },
+    security: {
+      title: "Data Security:",
+      content: "We implement a variety of security measures to maintain the safety of your personal information.",
+    },
+    consent: {
+      title: "Your Consent:",
+      content: "By using our website, you consent to our Privacy Statement and agree to its terms.",
+    },
+    changes: {
+      title: "Changes to Our Privacy Statement:",
+      content: "If we decide to change our Privacy Statement, we will post those changes on this page.",
+    },
+    contact: {
+      title: "Contact Us:",
+      content: "If you have any questions or concerns about our Privacy Statement, please contact us.",
+    },
   },
   swiper: {
     previous: "Previous slide",
