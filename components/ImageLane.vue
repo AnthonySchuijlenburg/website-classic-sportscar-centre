@@ -2,7 +2,7 @@
 defineProps<{
   name: string;
   imageUrl: string;
-  alignRight?: boolean;
+  alignTextRight?: boolean;
 }>();
 </script>
 
@@ -13,8 +13,8 @@ defineProps<{
     </h2>
     <div class="mt-1 grid grid-cols-1 gap-4 text-gray-600 md:grid-cols-2">
       <img
-        class="w-full object-cover aspect-video rounded-sm md:row-start-1"
-        :class="alignRight ? 'row-start-2' : 'md:col-start-2'"
+        class="w-full object-cover aspect-video row-start-2 rounded-sm md:row-start-1"
+        :class="alignTextRight ? '' : 'md:col-start-2'"
         :src="imageUrl"
         alt="Image"
       />

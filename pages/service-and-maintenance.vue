@@ -29,7 +29,7 @@ const images: Record<string, string> = await useAssetFilePaths(glob);
       v-for="(lane, index) in lanes"
       :key="lane"
       :name="`service.${lane}`"
-      :align-right="false"
+      :align-text-right="false"
       :image-url="images[index + 1]"
     />
   </InfoPage>

@@ -35,13 +35,13 @@ const images: Record<string, string> = await useAssetFilePaths(glob);
       v-for="(lane, index) in lanes"
       :key="lane"
       :name="`restoration.${lane}`"
-      :align-right="index % 2 !== 0"
+      :align-text-right="index % 2 !== 0"
       :image-url="images[index + 1]"
     />
 
     <BeforeAfter
       name="restoration"
-      :images="[images['after'], images['before']]"
+      :images="[images['before'], images['after']]"
     />
   </InfoPage>
 </template>
