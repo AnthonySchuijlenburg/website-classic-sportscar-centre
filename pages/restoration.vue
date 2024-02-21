@@ -23,8 +23,6 @@ const glob: Record<string, Promise<Image>> = import.meta.glob(
 );
 
 const images: Record<string, string> = await useAssetFilePaths(glob);
-
-console.log(images);
 </script>
 
 <template>
