@@ -4,6 +4,7 @@
   contact_us: "Contact us",
   en: "English",
   nl: "Dutch",
+  de: "German",
   routes: {
     home: "Home",
     restoration: "Restoration",

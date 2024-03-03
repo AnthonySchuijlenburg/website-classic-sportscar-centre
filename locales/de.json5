@@ -1,0 +1,129 @@
+{
+  brand: "Classic Sportscar Centre",
+  all_rights_reserved: "Alle Rechte vorbehalten.",
+  contact_us: "Kontaktieren Sie uns",
+  en: "Englisch",
+  nl: "Niederländisch",
+  de: "Deutsch",
+  routes: {
+    home: "Startseite",
+    restoration: "Restaurierung",
+    service: "Service und Wartung",
+    contact: "Kontakt",
+  },
+  cookies: {
+    title: "Wir verwenden funktionale Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website machen. Diese Cookies werden nicht verwendet, um Benutzer zu verfolgen. Erfahren Sie mehr",
+    link: "hier.",
+    accept: "Akzeptieren",
+  },
+  homepage: {
+    intro: "Classic Sportscar Centre ist die Adresse für Reparatur und Wartung von klassischen und Sportwagen aller Marken und Jahrgänge, aber wir mögen deutsche Autos der 70er und 80er Jahre wie den Mercedes W107 und den Porsche 911 am liebsten. Mit über 25 Jahren Erfahrung in klassischen und Sportwagen sind wir ein echter und zuverlässiger Partner für jeden mit oder der sich einen klassischen Sportwagen wünscht!",
+    restoration: {
+      title: "Entdecken Sie unsere Restaurierungsdienste",
+      content: "Wenn Sie darüber nachdenken, Ihren klassischen Mercedes R107 in seinen Originalzustand zurückzuversetzen, laden wir Sie ein, unsere Restaurierungsdienste für detaillierte Informationen zu erkunden.",
+      link: "Zur Restaurierung gehen",
+    },
+    service: {
+      title: "Entdecken Sie unsere Service- und Wartungslösungen",
+      content: "Um die Leistung und Langlebigkeit Ihres klassischen Mercedes R107 zu gewährleisten, bieten wir umfassende Service- und Wartungslösungen an. Erfahren Sie mehr und entdecken Sie unsere Service- und Wartungsoptionen hier.",
+      link: "Zum Service und zur Wartung gehen",
+    },
+  },
+  contact: {
+    title: "Möchten Sie Kontakt mit uns aufnehmen? So geht's:",
+    location: "Haarlem, Niederlande",
+    phone: "Telefon: ",
+    phone_number: "+31 6 53 72 84 62",
+    email: "E-Mail: ",
+    facebook: "Facebook: ",
+    facebook_url: "facebook.com",
+    content: "Für Anfragen, Termine oder andere Fragen können Sie uns gerne über die oben angegebenen Kontaktdaten erreichen. Wir freuen uns auf Ihre Kontaktaufnahme!",
+  },
+  restoration: {
+    title: "Restaurierungsdienste",
+    intro: "Im Classic Sportscar Centre sind wir auf die akribische Restaurierung klassischer Mercedes R107 Fahrzeuge spezialisiert. Mit einer Fülle von Erfahrung und dem Engagement, das Erbe dieser ikonischen Autos zu bewahren, stellt unser Team von geschulten Technikern sicher, dass jedes Restaurierungsprojekt mit Präzision und Liebe zum Detail ausgeführt wird.",
+    comprehensive_assessment: {
+      title: "Umfassende Bewertung",
+      content: "Unser Restaurierungsprozess beginnt mit einer umfassenden Bewertung des Zustands des Fahrzeugs. Durch sorgfältige Inspektion und Bewertung identifizieren wir Bereiche, die Aufmerksamkeit erfordern, und entwickeln einen maßgeschneiderten Restaurierungsplan, um jeden Aspekt der Restaurierungsbedürfnisse des Fahrzeugs anzugehen.",
+    },
+    authenticity_and_quality: {
+      title: "Authentizität und Qualität",
+      content: "Wir verstehen die Bedeutung von Authentizität bei der Bewahrung des zeitlosen Charakters klassischer Mercedes R107 Modelle. Deshalb verwenden wir ausschließlich echte Teile und Materialien von seriösen Lieferanten, um sicherzustellen, dass jedes während des Restaurierungsprozesses installierte Bauteil die höchsten Qualitäts- und Authentizitätsstandards erfüllt.",
+    },
+    craftsmanship: {
+      title: "Handwerkskunst und Liebe zum Detail",
+      content: "Die Restaurierung eines klassischen Mercedes R107 erfordert eine Mischung aus Handwerkskunst und technischem Know-how. Unser Team erfahrener Techniker besitzt die Fähigkeiten und das Wissen, um anspruchsvolle Restaurierungsarbeiten auszuführen, von Karosseriearbeiten und Lackierung bis hin zu mechanischen Reparaturen und Innenraumüberholungen, mit akribischer Liebe zum Detail.",
+    },
+    process: {
+      title: "Restaurierungsprozess",
+      content: "Unser Restaurierungsprozess ist eine akribische Reise, die Demontage, Restaurierung und Wiederzusammenbau des Fahrzeugs umfasst. Jeder Schritt wird mit Präzision und Sorgfalt durchgeführt, um sicherzustellen, dass jedes Bauteil in seinen Originalzustand versetzt oder bei Bedarf durch authentische Teile ersetzt wird.",
+    },
+    customer_satisfaction: {
+      title: "Kundenzufriedenheit",
+      content: "Bei Classic Sportscar Centre steht die Kundenzufriedenheit an erster Stelle. Während der Restaurierung halten wir unsere Kunden auf dem Laufenden und beteiligen sie aktiv ein, indem wir regelmäßige Updates bereitstellen und auf alle Fragen oder Bedenken eingehen, um eine reibungslose und zufriedenstellende Restaurierungserfahrung zu gewährleisten.",
+    },
+    before_and_after: {
+      title: "Vorher und nachher",
+      content: "Wir sind stolz darauf, die transformative Wirkung unserer Restaurierungsarbeiten zu präsentieren. Durch Vorher-Nachher-Fotos laden wir Sie ein, die bemerkenswerte Transformation klassischer Mercedes R107 Fahrzeuge unter unserer Obhut zu erleben und die Handwerkskunst und Hingabe zu sehen, die unseren Restaurierungsprozess auszeichnen.",
+    },
+    cta: "Bereit, die Restaurierungsreise für Ihren klassischen Mercedes R107 anzutreten? Kontaktieren Sie uns noch heute, um Ihr Restaurierungsprojekt zu besprechen und eine Beratung mit unserem Expertenteam zu vereinbaren.",
+  },
+  service: {
+    title: "Service und Wartung",
+    intro: "Im Classic Sportscar Centre bieten wir umfassende Service- und Wartungslösungen an, die auf die einzigartigen Bedürfnisse klassischer Mercedes R107 Fahrzeuge zugeschnitten sind. Mit einem Fokus auf Leistung, Zuverlässigkeit und Langlebigkeit bieten unsere erfahrenen Techniker eine Reihe von Dienstleistungen an, um Ihren Mercedes R107 in optimaler Verfassung zu halten.",
+    routine: {
+      title: "Regelmäßige Wartung",
+      content: "Regelmäßige Wartung ist unerlässlich, um die anhaltende Leistung und Zuverlässigkeit klassischer Mercedes R107 Modelle zu gewährleisten. Unsere Routine-Wartungsdienste umfassen Ölwechsel, Flüssigkeitskontrollen, Bremseninspektionen und andere wesentliche Aufgaben, um Ihr Fahrzeug reibungslos und sicher zu betreiben.",
+    },
+    inspection: {
+      title: "Umfassende Inspektionen",
+      content: "Unsere erfahrenen Techniker führen gründliche Inspektionen Ihres Mercedes R107 durch, um mögliche Probleme oder Bereiche zu identifizieren, die Aufmerksamkeit erfordern. Von der Motor-Diagnose bis zur Fahrwerksinspektion lassen wir keine Wünsche offen, um sicherzustellen, dass Ihr Fahrzeug in bestem Zustand ist.",
+    },
+    parts: {
+      title: "Echte Teile und Zubehör",
+      content: "Die Authentizität klassischer Mercedes R107 Fahrzeuge ist uns sehr wichtig. Deshalb verwenden wir ausschließlich echte Teile und Zubehörteile von seriösen Lieferanten, um sicherzustellen, dass jedes während der Wartung und Instandhaltung installierte Bauteil die höchsten Qualitäts- und Authentizitätsstandards erfüllt.",
+    },
+    service: {
+      title: "Service-Pakete",
+      content: "Wir verstehen, dass jeder Besitzer eines klassischen Mercedes R107 individuelle Bedürfnisse und Vorlieben in Bezug auf Service und Wartung hat. Deshalb bieten wir maßgeschneiderte Servicepakete an, die auf Ihre spezifischen Anforderungen zugeschnitten sind, um sicherzustellen, dass Sie die Betreuung und Aufmerksamkeit erhalten, die Ihr Fahrzeug verdient.",
+    },
+    cta: "Bereit, einen Servicetermin für Ihren klassischen Mercedes R107 zu vereinbaren? Kontaktieren Sie uns noch heute, um Ihre Service- und Wartungsbedürfnisse zu besprechen und einen Termin mit unserem Expertenteam zu vereinbaren.",
+  },
+  privacy: {
+    title: "Datenschutzerklärung",
+    latest_update: "Diese Erklärung wurde zuletzt am 20-02-2024 aktualisiert",
+    content: "Diese Datenschutzerklärung erläutert, wie wir Ihre persönlichen Daten erfassen, verwenden und schützen, wenn Sie unsere Website besuchen. Wir sind bestrebt, Ihre Privatsphäre zu schützen und die Sicherheit Ihrer persönlichen Daten zu gewährleisten.",
+    information: {
+      title: "Informationen, die wir sammeln:",
+      content: "Wenn Sie unsere Website besuchen, können wir bestimmte Informationen über Ihren Besuch sammeln, wie z.B. Ihre IP-Adresse, den Browsertyp und die von Ihnen aufgerufenen Seiten. Wir verwenden diese Informationen, um Trends zu analysieren, die Website zu verwalten, die Benutzerbewegungen zu verfolgen und demografische Informationen für aggregierte Nutzung zu sammeln.",
+    },
+    use_of_cookies: {
+      title: "Verwendung von Cookies:",
+      content: "Wir verwenden Cookies, um Ihr Surferlebnis auf unserer Website zu verbessern. Diese Cookies sind strikt erforderlich, damit die Website ordnungsgemäß funktioniert, und werden nicht zu Tracking-Zwecken verwendet. Speziell verwenden wir nur das 'i18n_redirected'-Cookie, um sich daran zu erinnern, in welcher Sprache Sie die Website verwenden möchten.",
+    },
+    sharing: {
+      title: "Informationen weitergeben:",
+      content: "Wir verkaufen, handeln oder übertragen Ihre persönlichen Daten nicht an Dritte ohne Ihre Zustimmung. Wir können Ihre Informationen jedoch mit vertrauenswürdigen Dritten teilen, die uns beim Betrieb unserer Website, bei der Durchführung unseres Geschäfts oder bei der Betreuung Ihrer Person unterstützen, solange diese Parteien sich verpflichten, diese Informationen vertraulich zu behandeln.",
+    },
+    security: {
+      title: "Datensicherheit:",
+      content: "Wir setzen eine Vielzahl von Sicherheitsmaßnahmen ein, um die Sicherheit Ihrer persönlichen Daten zu gewährleisten.",
+    },
+    consent: {
+      title: "Ihre Einwilligung:",
+      content: "Durch die Nutzung unserer Website stimmen Sie unserer Datenschutzerklärung zu und akzeptieren deren Bedingungen.",
+    },
+    changes: {
+      title: "Änderungen an unserer Datenschutzerklärung:",
+      content: "Wenn wir beschließen, unsere Datenschutzerklärung zu ändern, werden wir diese Änderungen auf dieser Seite veröffentlichen.",
+    },
+    contact: {
+      title: "Kontaktieren Sie uns:",
+      content: "Wenn Sie Fragen oder Bedenken zu unserer Datenschutzerklärung haben, kontaktieren Sie uns bitte.",
+    },
+  },
+  swiper: {
+    previous: "Vorherige Folie",
+    next: "Nächste Folie",
+  },
+}

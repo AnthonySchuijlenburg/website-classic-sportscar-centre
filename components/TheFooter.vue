@@ -29,6 +29,12 @@ const { locale } = useI18n();
         >
           <NuxtLink :to="switchLocalePath('nl')">🇳🇱 {{ $t("nl") }}</NuxtLink>
         </button>
+        <button
+          class="border rounded px-2 py-1"
+          :class="{ 'border-blue-800': locale === 'de' }"
+        >
+          <NuxtLink :to="switchLocalePath('de')">🇩🇪 {{ $t("de") }}</NuxtLink>
+        </button>
       </div>
     </div>
   </footer>

@@ -4,6 +4,7 @@
   contact_us: "Neem contact op",
   en: "Engels",
   nl: "Nederlands",
+  de: "Duits",
   routes: {
     home: "Home",
     restoration: "Restauratie",
