@@ -9,8 +9,8 @@ definePageMeta({
 <template>
   <div>
     <HeroLane />
-    <div class="relative isolate px-6 py-0 md:py-14 pb-16 lg:px-8">
-      <div class="mx-auto max-w-2xl py-8 sm:py-12 md:max-w-4xl lg:py-16">
+    <div class="max-w-3xl px-6 mx-auto md:max-w-4xl lg:px-0">
+      <div class="mx-auto max-w-3xl py-8 sm:py-12 md:max-w-4xl lg:py-16">
         <div class="text-center">
           <h1
             class="text-6xl font-bold tracking-tight text-gray-900 sm:text-6xl"

@@ -4,11 +4,9 @@ const { locale } = useI18n();
 </script>
 
 <template>
-  <footer
-    class="bg-white w-full rounded-lg shadow mx-auto max-w-2xl md:max-w-4xl"
-  >
+  <footer class="bg-white w-full rounded-lg shadow mx-auto">
     <div
-      class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+      class="w-full mx-auto p-6 md:flex md:items-center md:justify-between max-w-3xl md:max-w-4xl lg:px-0"
     >
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
         >© {{ new Date().getFullYear() }}

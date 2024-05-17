@@ -30,7 +30,7 @@ const routes: Array<Route> = [
 
 <template>
   <nav class="bg-white shadow-md sticky top-0 z-10">
-    <div class="max-w-2xl px-6 mx-auto md:max-w-4xl">
+    <div class="max-w-3xl px-6 mx-auto md:max-w-4xl lg:px-0">
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <div>
