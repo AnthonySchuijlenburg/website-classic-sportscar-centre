@@ -19,7 +19,9 @@ export default defineNuxtConfig({
     url: "https://classicsportscarcentre.com/",
     name: "Classic Sportscar Centre",
     description: "Classic and sportscar specialists.",
-    trailingSlash: false,
+  },
+  seo: {
+    redirectToCanonicalSiteUrl: true,
   },
   ogImage: {
     enabled: false,
