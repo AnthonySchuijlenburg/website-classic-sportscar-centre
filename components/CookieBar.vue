@@ -2,7 +2,7 @@
 const localePath = useLocalePath();
 
 const expiresDate = new Date();
-expiresDate.setDate(expiresDate.getDate() + 30);
+expiresDate.setFullYear(expiresDate.getFullYear() + 1);
 
 const cookieOptions = {
   secure: true,
